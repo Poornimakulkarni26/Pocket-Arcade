@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!*.png
+!docs/
+!docs/**
