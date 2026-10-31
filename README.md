@@ -18,6 +18,8 @@ This is a fully custom-designed handheld game console — small enough to fit in
 It runs 10+ games stored on an SD card, displays them on a 1.3" OLED screen, and is powered by a rechargeable lithium battery that charges over USB via a TP4056 module.
 
 ---
+![3D PCB Render](Game-Console.png)
+![PCB Back View](Game-Console-Back.png)
 
 ## Games
 
@@ -54,46 +56,6 @@ It runs 10+ games stored on an SD card, displays them on a 1.3" OLED screen, and
 - **SD card storage** — games and assets stored externally, easy to update without reflashing firmware
 - **TP4056 charging circuit** — safe single-cell Li-ion charging with overcharge and over-discharge protection built in
 - **Tactile switches** — low-profile, responsive buttons for directional and action input
-
----
-
-## Block Diagram
-
-```
-┌─────────────────────────────────────────────┐
-│                  RP2040                      │
-│                                             │
-│  Core 0: Game Logic    Core 1: Display      │
-└────┬──────────┬──────────────┬──────────────┘
-     │          │              │
-     ▼          ▼              ▼
-┌─────────┐ ┌────────┐  ┌───────────┐
-│ Tactile │ │SD Card │  │ 1.3" OLED │
-│Switches │ │Storage │  │  Display  │
-└─────────┘ └────────┘  └───────────┘
-
-┌─────────────────────────┐
-│  Li-ion Battery         │
-│  + TP4056 Charger       │
-│  (USB-C charging)       │
-└─────────────────────────┘
-```
-
----
-
-## Repository Structure
-
-```
-├── README.md
-├── .gitignore
-├── hardware/
-│   ├── *.kicad_pro       # KiCad project file
-│   ├── *.kicad_sch       # Schematic
-│   └── *.kicad_pcb       # PCB layout
-└── docs/
-    ├── board-3d-top.png  # 3D render top view
-    └── schematic.pdf     # Schematic export
-```
 
 ---
 
