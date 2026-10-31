@@ -11,8 +11,7 @@ A fist-sized handheld game console built from scratch — custom PCB, 10+ games,
 
 ## Overview
 
-This is a fully custom-designed handheld game console — small enough to fit in your fist. Every part of it, from the PCB layout to the game logic, was built from the ground up. No dev boards, no breakout modules for the main circuit — just a clean custom PCB powered by the RP2040.
-
+This is a fully custom-designed handheld game console — small enough to fit in your fist. Every part of it, from the PCB layout to the game logic, was built from the ground up. 
 It runs 10+ games stored on an SD card, displays them on a 1.3" OLED screen, and is powered by a rechargeable lithium battery that charges over USB via a TP4056 module.
 
 ---
