@@ -2,8 +2,6 @@
 
 A fist-sized handheld game console built from scratch — custom PCB, 10+ games, OLED display, rechargeable battery, and tactile controls. Designed and fabricated entirely from scratch using KiCad.
 
-![Board Status](https://img.shields.io/badge/status-fabricated-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![EDA](https://img.shields.io/badge/EDA-KiCad-orange)
 ![MCU](https://img.shields.io/badge/MCU-RP2040-red)
 ![Display](https://img.shields.io/badge/display-OLED%201.3"-blue)
