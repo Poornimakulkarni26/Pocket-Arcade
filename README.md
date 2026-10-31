@@ -41,7 +41,6 @@ It runs 10+ games stored on an SD card, displays them on a 1.3" OLED screen, and
 | Battery | Lithium-ion rechargeable |
 | Charging | TP4056 USB charging module |
 | Form factor | Fist-sized, fully handheld |
-| EDA Tool | KiCad |
 
 ---
 
@@ -86,7 +85,7 @@ It runs 10+ games stored on an SD card, displays them on a 1.3" OLED screen, and
 ## Author
 
 **Poornima Kulkarni**
-Embedded Systems & Industrial Automation Engineer
+Embedded Systems Engineer
 
 - GitHub: [@Poornimakulkarni26](https://github.com/Poornimakulkarni26)
 
